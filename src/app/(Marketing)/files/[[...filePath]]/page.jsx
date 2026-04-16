@@ -1,3 +1,4 @@
+import Priv from '@/app/_com/page';
 import React from 'react';
 
 export const metadata = {
@@ -12,6 +13,7 @@ const page = async ({params}) => {
     // console.log(filePath)
     return (
         <div>
+          <Priv></Priv>
             <h2 className='text-center text-3xl font-bold my-25'>FIlePath -- {filePath?.join("/")}</h2>
         </div>
     );
