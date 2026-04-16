@@ -19,12 +19,9 @@ export default function NotFound() {
         </motion.h1>
 
         <p className="text-xl text-gray-300">
-          Oops! Page not found 😕
+          Ayy hAyyyyyy
         </p>
 
-        <p className="text-gray-400">
-          The page you are looking for does not exist or has been moved.
-        </p>
 
         <Link href="/">
           <button className="mt-4 px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-xl font-semibold transition-all duration-300 shadow-lg">
