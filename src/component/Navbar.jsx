@@ -12,7 +12,7 @@ const Navbar = () => {
                 <Link href={'/'} className={p==='/' ? "btn btn-accent btn-outline" : "btn"}>Home</Link>
                 <Link href={'/about'} className={p==='/about' ? "btn btn-accent btn-outline" : "btn"}>About</Link>
                 <Link href={'/star'} className={p==='/star' ? "btn btn-accent btn-outline" : "btn"}>Star</Link>
-                <Link href={'/contact'} className={p==='/contact' ? "btn btn-accent btn-outline" : "btn"}>COntact</Link>
+                <Link href={'/files'} className={p==='/files' ? "btn btn-accent btn-outline" : "btn"}>Files</Link>
             </ul>
         </div>
     );
